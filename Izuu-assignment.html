@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="C:\Users\MAINLAND OIL AND GAS\Desktop\HTML-CSS Course\Styles\Izuu-assignment.css">
+  </head>
+
+  <body >
+    <form method="action">
+      <table class="table-style">
+        <caption>Registration Form</caption>
+        <tr>
+          <th>Enter your first name</th>
+          <td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name"
+          required></td>
+        </tr>
+        <tr>
+          <th>Enter you last name</th>
+          <td><input type="text" placeholder="enter your last name"></td>
+        </tr>
+        <tr>
+          <th>Enter your password</th>
+          <td><input type="pwd" placeholder="enter your pasword"> </td>
+        </tr>
+        <tr>
+          <th>ReEnter your password</th>
+          <td><input type="pwd" placeholder="re-enter your password"></td>
+        </tr>
+        <tr>
+          <th>Enter your email</th>
+          <td><input type="email" placeholder="enter your email"></td>
+        </tr>
+        <tr>
+          <th>Enter your mobile number</th>
+          <td><input type="number" placeholder="enter your mobile number"></td>
+        </tr>
+        <tr>
+          <th>Enter your address</th>
+          <td><textarea rows="8" cols="20" placeholder="enter your address"></textarea></td>
+        </tr>
+        <tr>
+          <th>Select your gender</th>
+          <td>
+            Male<input type="radio" name="g" value="M" placeholder="select your gender">
+            Female<input type="radio" name="g" value="F" placeholder="select your gender">
+          </td>
+        </tr>
+        <tr>
+          <th>Select your hobbies</th>
+          <td>
+            Football<input type="checkbox" name="x[]" value="h" placeholder="select your hobbies">
+            Travelling<input type="checkbox" name="x[]" value="h2" placeholder="select your hobbies">
+            Movies<input type="checkbox" name="x[]" value="h3" placeholder="select your hobbies">
+            Tourism<input type="checkbox" name="x[]" value="h4" placeholder="select your hobbies">
+          </td>
+        </tr>
+        <tr>
+          <th>Select your date of birth</th>
+          <td><input type="date" placeholder="select your date of birth"></td>
+        </tr>
+        <tr>
+          <th>Select your Country</th>
+          <td>
+            <select name="country" id="countries" aria-label="select your country">
+              <option value="" selected="selected" disabled="disabled">Select yourcountry</option>
+              <option value="1">India</option>
+              <option value="2">Pakistan</option>
+              <option value="3">Nigeria</option>
+              <option value="3">Caritas</option>
+              <option value="3">Enugu</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Upload your pic</th>
+          <td><input type="file" placeholder="upload your pic"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><input type="submit" value="Save My Data">
+            <input type="reset" value="Resect Data">
+            <input type="submit" value="send">
+          </td>
+        </tr>
+        
+      </table>
+    </form>
+  </body>
+</html>
